@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCUSPDF - Modern PDF Viewer</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/all.min.css">
+    <link href="lib/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class'
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 min-h-screen transition-all duration-500">
+    <nav class="fixed w-full z-50 backdrop-blur-lg bg-white/90 dark:bg-gray-900/70 border-b border-gray-100 dark:border-gray-700">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="brand-logo text-3xl font-bold text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500">
+                    FOCUSPDF
+                </a>
+                <div class="flex items-center gap-4">
+                    <button id="darkModeToggle" class="theme-toggle">
+                        <i class="fas fa-moon text-blue-600 dark:hidden"></i>
+                        <i class="fas fa-sun hidden dark:block dark:text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-24">
+        <section class="container mx-auto px-6 py-12">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2 space-y-8" data-aos="fade-right">
+                    <h1 class="text-5xl font-bold leading-tight text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500">
+                        PDF Viewer for the Future
+                    </h1>
+                    <p class="text-xl text-gray-700 dark:text-gray-300">
+                        Experience PDF viewing like never before with FOCUSPDF. Seamless experience with clean interface and powerful features. <span class="text-sm italic text-gray-500 dark:text-gray-400 font-normal align-middle">Yes, AI wrote this one too.</span>
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://github.com/FOCUSPDF" target="_blank" class="action-button primary">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="action-button secondary">
+                            <i class="fas fa-download"></i>
+                            <span>Download <strong>Soon</strong></span>
+                        </a>
+                        <a href="https://FOCUSPDF.github.io/viewer" class="action-button secondary">
+                            <i class="fas fa-globe"></i>
+                            <span>Web Version</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2" data-aos="fade-left">
+                    <div class="preview-container">
+                        <img src="img/screenshot.png" alt="FOCUSPDF Screenshot" class="rounded-xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 py-24">
+            <h2 class="text-3xl font-bold text-center mb-16 text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500" data-aos="fade-up">
+                Why Choose FOCUSPDF?
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Multi-Language</h3>
+                    <p>Support for 11 different languages.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Dark Mode</h3>
+                    <p>Easy on your eyes with beautiful dark theme support.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <h3>Keyboard Shortcuts</h3>
+                    <p>Boost your productivity with customizable shortcuts.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white/90 dark:bg-gray-900/70 backdrop-blur-lg border-t border-gray-100 dark:border-gray-700 py-6">
+        <div class="container mx-auto px-6 text-center text-gray-600 dark:text-gray-400">
+            <p>Made with ❤ by Ufuk</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="lib/aos.js.js"></script>
+    <script src="lib/3.4.16.js"></script>
+</body>
+</html>
