@@ -16,9 +16,9 @@
 </head>
 <body class="bg-gradient-to-br from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 min-h-screen transition-all duration-500">
     <nav class="fixed w-full z-50 backdrop-blur-lg bg-white/90 dark:bg-gray-900/70 border-b border-gray-100 dark:border-gray-700">
-        <div class="container mx-auto px-6 py-4">
+        <div class="container mx-auto px-4 sm:px-6 py-4">
             <div class="flex justify-between items-center">
-                <a href="#" class="brand-logo text-3xl font-bold text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500">
+                <a href="#" class="brand-logo text-2xl sm:text-3xl font-bold text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500">
                     FOCUSPDF
                 </a>
                 <div class="flex items-center gap-4">
@@ -32,43 +32,46 @@
     </nav>
 
     <main class="pt-24">
-        <section class="container mx-auto px-6 py-12">
-            <div class="flex flex-col lg:flex-row items-center gap-12">
-                <div class="lg:w-1/2 space-y-8" data-aos="fade-right">
-                    <h1 class="text-5xl font-bold leading-tight text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500">
+        <section class="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
+            <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+                <div class="w-full lg:w-1/2 space-y-6 sm:space-y-8 text-center lg:text-left" data-aos="fade-right">
+                    <h1 class="text-4xl sm:text-5xl font-bold leading-tight text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500">
                         PDF Viewer for the Future
                     </h1>
                     <p class="text-xl text-gray-700 dark:text-gray-300">
                         Experience PDF viewing like never before with FOCUSPDF. Seamless experience with clean interface and powerful features. <span class="text-sm italic text-gray-500 dark:text-gray-400 font-normal align-middle">Yes, AI wrote this one too.</span>
                     </p>
-                    <div class="flex flex-wrap gap-4">
+                    <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start">
                         <a href="https://github.com/FOCUSPDF" target="_blank" class="action-button primary">
                             <i class="fab fa-github"></i>
                             <span>GitHub</span>
                         </a>
-                        <a href="#" class="action-button secondary">
-                            <i class="fas fa-download"></i>
-                            <span>Download <strong>Soon</strong></span>
-                        </a>
                         <a href="https://FOCUSPDF.github.io/viewer" class="action-button secondary">
                             <i class="fas fa-globe"></i>
-                            <span>Web Version <strong>Soon</strong></span>
+                            <span>Web Version </span>
+                        </a>
+                        <a href="#" class="action-button secondary">
+                            <i class="fas fa-download"></i>
+                            <span>Download <strong><em>Soon</em></strong></span>
+                        </a>
+                        <a href="https://www.producthunt.com/posts/focuspdf?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-focuspdf" target="_blank" class="product-hunt-badge">
+                            <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=745185&theme=neutral" alt="FOCUSPDF - Meet FOCUSPDF. Your next PDF viewer. | Product Hunt" width="250" height="54">
                         </a>
                     </div>
                 </div>
                 <div class="lg:w-1/2" data-aos="fade-left">
                     <div class="preview-container">
-                        <img src="img/screenshot.png" alt="FOCUSPDF Screenshot" class="rounded-xl shadow-2xl">
+                        <img src="img/ss.jpg" alt="FOCUSPDF Screenshot" class="rounded-xl shadow-2xl">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="container mx-auto px-6 py-24">
-            <h2 class="text-3xl font-bold text-center mb-16 text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500" data-aos="fade-up">
-                Why Choose FOCUSPDF?
+        <section class="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500" data-aos="fade-up">
+                Features
             </h2>
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-icon">
                         <i class="fas fa-globe"></i>
@@ -92,11 +95,59 @@
                 </div>
             </div>
         </section>
+
+        <section class="container mx-auto px-6 py-12 pb-24 relative">
+            <div class="glow-line glow-line-2"></div>
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-500" data-aos="fade-up">
+                Roadmap
+            </h2>
+            <div class="roadmap-container">
+                <div class="roadmap-item completed" data-aos="fade-up" data-aos-delay="100">
+                    <div class="roadmap-date">Jan 4, 2025</div>
+                    <div class="roadmap-content">
+                        <h3>Web Version</h3>
+                        <p>Release of the first stable version accessible via web browsers.</p>
+                    </div>
+                </div>
+
+                <div class="roadmap-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="roadmap-date">Q1, 2025</div>
+                    <div class="roadmap-content">
+                        <h3>Major Update</h3>
+                        <p>Major feature update for the web browser version.</p>
+                    </div>
+                </div>
+
+                <div class="roadmap-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="roadmap-date">Q2, 2025</div>
+                    <div class="roadmap-content">
+                        <h3>Native Apps Announcement</h3>
+                        <p>Announcing native apps for Windows and Linux on the website.</p>
+                    </div>
+                </div>
+
+                <div class="roadmap-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="roadmap-date">Q3, 2025</div>
+                    <div class="roadmap-content">
+                        <h3>Major Update</h3>
+                        <p>Major feature update for the web browser version.</p>
+                    </div>
+                </div>
+
+                <div class="roadmap-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="roadmap-date">Q3, 2025 (Not certain..)</div>
+                    <div class="roadmap-content">
+                        <h3>Native Apps</h3>
+                        <p>Release of native apps for Windows, Linux and perhaps macOS. And the end of the main development period.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="bg-white/90 dark:bg-gray-900/70 backdrop-blur-lg border-t border-gray-100 dark:border-gray-700 py-6">
         <div class="container mx-auto px-6 text-center text-gray-600 dark:text-gray-400">
-            <p>Made with ❤ by Ufuk</p>
+            <p>Made with ❤ by Ufuayk</p>
         </div>
     </footer>
 
